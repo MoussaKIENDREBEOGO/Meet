@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente en ligne - Produits africains</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="header-flex">
+            <img src="images/logo.png" alt="Logo Mamichic" class="logo-site">
+            <h1>Mamichic</h1>
+            <button id="theme-toggle" class="toggle-theme" type="button" aria-label="Changer le thème"
+                title="Changer le thème (clair/sombre)" aria-pressed="false">
+                <span class="icon">🌙</span>
+            </button>
+        </div>
+        <p class="slogan">L'élégance à portée de main</p>
+    </header>
+    <main>
+        <div class="conteneur-principal">
+            <section id="produits">
+                <!-- Les produits seront affichés ici par JavaScript -->
+            </section>
+            <aside class="aside-droite">
+                <div id="commandes"></div>
+            </aside>
+        </div>
+    </main>
+    <!-- Modale d'image pour l'agrandissement au clic -->
+    <div id="image-modal">
+        <img id="modal-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Aperçu du produit">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
